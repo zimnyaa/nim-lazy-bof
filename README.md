@@ -1,5 +1,5 @@
 # nim-lazy-bof
- Nim port of sliver's BOF loading approach. Embeds the COFFLoader dll, loads it with `memlib`, builds the argument bytearray and defines a callback, and fires `LoadAndRun` (coourtesy to the team behind `sliver`).
+ Nim port of sliver's BOF loading approach (discussed at https://tishina.in/execution/bof-lazy-loading). Embeds the COFFLoader dll, loads it with `memlib`, builds the argument bytearray and defines a callback, and fires `LoadAndRun` (coourtesy to the team behind `sliver`).
 
  This PoC loads and runs `whoami.o` from `Situational-Awareness-BOF` collection without any arguments.
 
